@@ -9,7 +9,7 @@ Automated grading of homework assignments and tests
 # Problems
 ## While01
 
-  A variable of type str is given. Find how many numbers it contains and return.
+  A variable of type str is given. Find how many digits it contains and return.
 
 **Example 1:**
 
@@ -121,7 +121,7 @@ Output: 7
 
 ## While07
 
-  A string of numbers is given. Find how many even numbers there are and return.
+  A string of number is given. Find how many even digits there are and return.
 
 **Example 1:**
 
@@ -145,7 +145,7 @@ Output: 3
 
 ## While08
 
-  A string of numbers is given. Find how many odd numbers there are and return.
+  A string of number is given. Find how many odd digits there are and return.
 
 **Example 1:**
 
@@ -169,7 +169,7 @@ Output: 4
 
 ## While09
 
-  A string of numbers is given. Find the sum of all the numbers and return.
+  A string of number is given. Find the sum of all the digits and return.
 
 **Example 1:**
 
@@ -193,7 +193,7 @@ Output: 3
 
 ## While10
 
- A string of numbers is given. Find and return the sum of all odd numbers.
+ A string of number is given. Find and return the sum of all odd digits.
 
 **Example 1:**
 
