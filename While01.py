@@ -6,11 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    s = 0
+    a= "salom 2311"
     n = 0
     while n< len(s):
         if s[n].isdigit():
-            s += 1
+            a += 1
         n += 1
     return s      
-    
