@@ -6,11 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    s = 12345
+    s = 0
     n = 0
     while n< len(s):
         if s[n].isdigit():
             s += 1
         n += 1
-    print(s)        
+    return s      
     
