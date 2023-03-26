@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    a = 0
+    n = 0
+    while a < len(s):
+        if s[a].isupper():
+            n += 1
+        a += 1    
+    return n
