@@ -8,9 +8,8 @@ def main(s):
     """
     a= "salom 2311"
     n = 0
-    while n < len(s):
-        if a[n].isdigit():
-            a += 1
-        n += 1
-    return s      
-print(main(3))
+    while a < len(s):
+        if s[n].isdigit():
+            n += 1
+        a += 1
+    return a   
