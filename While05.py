@@ -12,4 +12,4 @@ def main(s):
         if s[a].islower():
             n += 1
         a += 1    
-    return n
+    return n  
