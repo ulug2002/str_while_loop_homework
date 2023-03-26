@@ -6,10 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    s = 0
+    a = 0
     n = 0
-    while s< len(s):
-        if s[n].isalpha():
-            s+=1
-        n += 1
+    while a < len(s):
+        if s[a].isalpha():
+            n += 1
+        a += 1    
     return n
