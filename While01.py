@@ -10,8 +10,8 @@ def main(s):
     b = 0  
     while a < len(s): 
         if s[a].isdigit():
-            b = b +1 
-        a = a+1  
+            b += 1 
+        a += 1  
 
         
     return b 
