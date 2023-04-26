@@ -6,10 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    a= "salom 2311"
-    n = 0
-    while a < len(s):
-        if s[n].isdigit():
-            n += 1
-        a += 1
-    return a        
+    a = 0
+    b = 0  
+    while a < len(s): 
+        if s[a].isdigit():
+            b = b +1 
+        a = a+1  
+
+        
+    return b 
+print(main("python 2022"))
