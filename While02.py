@@ -10,6 +10,7 @@ def main(s):
     n = 0
     while a < len(s):
         if s[a].isalpha():
-            n += 1
-        a += 1    
+            n = n + 1
+        a = a + 1    
     return n
+print(main("samrkand 20031243"))
